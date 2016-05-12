@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:dmodani/istanbul-middleware.git"
+    "url": "git@github.com:dmodani/babel-istanbul-middleware.git"
   },
   "scripts": {
     "pretest": "jshint --config ./node_modules/yui-lint/jshint.json lib/*js",
