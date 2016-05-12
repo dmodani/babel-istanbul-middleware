@@ -21,10 +21,11 @@
     "@lpinca"
   ],
   "dependencies": {
-    "istanbul": "0.4.x",
-    "express": "4.x",
+    "archiver": "0.14.x",
+    "babel-core": "^6.8.0",
+    "babel-istanbul": "^0.8.0",
     "body-parser": "~1.12.3",
-    "archiver": "0.14.x"
+    "express": "4.x"
   },
   "devDependencies": {
     "mkdirp": "*",
