@@ -1,25 +1,16 @@
 {
-  "author": "Krishnan Anantheswaran <kananthmail-github@yahoo-inc.com>",
-  "name": "istanbul-middleware",
-  "description": "Connect middleware for Istanbul to handle server-side as well as browser coverage use-cases for node apps",
-  "version": "0.2.2",
+  "author": "Darshan Modani <darshan.modani88@gmail.com>",
+  "name": "babel-istanbul-middleware",
+  "description": "Connect middleware for Istanbul to handle server-side as well as browser coverage use-cases for node apps ",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:gotwarlost/istanbul-middleware.git"
+    "url": "git@github.com:dmodani/istanbul-middleware.git"
   },
   "scripts": {
     "pretest": "jshint --config ./node_modules/yui-lint/jshint.json lib/*js",
     "test": "./test/run.sh"
   },
-  "contributors": [
-    "@arboleya",
-    "@harking",
-    "@mikaturunen",
-    "@jelmertanen",
-    "@tkmunzwa",
-    "@mcollina",
-    "@lpinca"
-  ],
   "dependencies": {
     "archiver": "0.14.x",
     "babel-core": "^6.8.0",
